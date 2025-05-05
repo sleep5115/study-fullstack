@@ -3,6 +3,13 @@ server:
 
 spring:
   application:
-    name: demo
+    name: backend
 
-#커밋테스트
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/projectdb
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
