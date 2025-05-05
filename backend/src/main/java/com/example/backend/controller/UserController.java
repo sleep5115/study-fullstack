@@ -18,7 +18,7 @@ public class UserController {
     @GetMapping("/{userId}")
     public int getUser(@PathVariable String userId) {
         User user = userService.findUserById(userId);
-        // http://localhost:8080/api/user/ymh -> @@@ userName : 유민형
+        // http://localhost:8080/api/user/xxx -> @@@ userName : OOO
         if (user != null) {
             System.out.println("@@@ userName : " +  user.getUserName());
         }
