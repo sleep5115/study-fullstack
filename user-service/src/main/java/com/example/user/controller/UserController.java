@@ -1,7 +1,7 @@
-package com.example.backend.controller;
+package com.example.user.controller;
 
-import com.example.backend.domain.User;
-import com.example.backend.service.UserService;
+import com.example.user.domain.User;
+import com.example.user.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,7 +1,7 @@
-package com.example.backend.service;
+package com.example.user.service;
 
-import com.example.backend.domain.User;
-import com.example.backend.repository.UserRepository;
+import com.example.user.domain.User;
+import com.example.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
